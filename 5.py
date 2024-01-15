@@ -45,6 +45,8 @@ def getmap(data, idx):
 # TODO: Find keyboard combination to switch to terminal from editor
 if __name__ == '__main__':
     if sys.argv[1] == 'test':
+        filename = '5.test'
+    else:
         filename = '5.in'
     datalines = open(filename).read().strip().split('\n')
     # parse the data input and choose a data structure
